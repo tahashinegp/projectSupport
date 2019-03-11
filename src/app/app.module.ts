@@ -10,9 +10,8 @@ import { EmployeelistComponent } from './employeelist/employeelist.component';
 import { EmplyeedetailsComponent } from './emplyeedetails/emplyeedetails.component';
 import {EmployeeserviceService} from './employeeservice.service';
 import {HttpClientModule} from '@angular/common/http';
-import { DepartmentListComponent } from './department-list/department-list.component';
-import { StudentListComponent } from './student-list/student-list.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DepartmentOverviewComponent } from './department-overview/department-overview.component';
+import { DepartmentContactComponent } from './department-contact/department-contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +19,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     EmployeelistComponent,
     EmplyeedetailsComponent,
     routingComponents,
-    PageNotFoundComponent
+    DepartmentOverviewComponent,
+    DepartmentContactComponent
   ],
   imports: [
     BrowserModule,
